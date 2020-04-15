@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Faz com que a contabilização da largura do elemento seja feita a partir da borda do elemento, e não do conteúdo ou do espaçamento externo*/
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ds_none {
+    display: none !important;
+}
