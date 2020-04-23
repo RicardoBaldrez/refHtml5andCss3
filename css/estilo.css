@@ -43,3 +43,38 @@
     background-color: #d36833;
     color: #fff;
 }
+
+/* Primeira dobra - CTA */
+.main_cta {
+    width: 100%;
+    background-color: #2d3142;
+    background-image: url('../_img/bg_main_home.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_cta .main_content_cta { 
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15.3% 40px;
+}
+
+.main_cta .main_content_cta h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main_cta .main_content_cta p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.main_cta .main_content_cta .btn_orange {
+    font-size: .875em;
+}
