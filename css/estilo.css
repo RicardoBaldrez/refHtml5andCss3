@@ -176,15 +176,13 @@
 }
 
 .main_optin .main_optin_content form input[type="text"], .main_optin .main_optin_content form input[type="email"] {
-    border: none;
-    border-radius: 8px;
+    order-radius: 8px;
     flex-basis: 37%;
     padding-left: 10px;
 }
 
 .main_optin .main_optin_content form button {
-    border: none;
-    border-radius: 8px;
+    order-radius: 8px;
     flex-basis: 20%;
 }
 
@@ -199,6 +197,7 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .main_course .main_course_content .main_course_header {
@@ -301,4 +300,102 @@
 
 .main_course_rating_content_comment article img {
     width: 20px;
+}
+
+/* Quinta dobra - Escola */
+.main_school {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.main_school .main_school_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school .main_school_content > header {
+    flex-basis: 100%;
+    color: #333;
+}
+
+.main_school .main_school_content > header h1 {
+    font-size: 2em;
+}
+
+.main_school .main_school_content > header p {
+    margin: 5px 0 25px 0;
+    font-weight: 500;
+}
+
+.main_school .main_school_content .main_school_content_left {
+    flex-basis: calc(70% - 30px);
+}
+
+.main_school .main_school_content .main_school_content_left .main_school_social_networks {
+    padding: 10px 0 10px 25px;
+    border-radius: 5px;
+    background-color: #2d3142;
+}
+
+.main_school .main_school_content .main_school_content_left .main_school_social_networks a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.main_school .main_school_content .main_school_content_left > article header h2 {
+    margin: 15px 0 10px 0;
+    font-size: 1.085em;
+}
+
+.main_school .main_school_content .main_school_content_left > article p {
+    font-size: .875em;
+    font-weight: 500;
+    margin-bottom: 20px;
+} 
+
+.main_school .main_school_content .main_school_content_left .main_school_awards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(223, 223, 223);
+}
+
+.main_school .main_school_content .main_school_content_left .main_school_awards > header {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    color: #d36833;
+}
+
+.main_school .main_school_content .main_school_content_left .main_school_awards article {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 10px;
+}
+
+.main_school .main_school_content .main_school_content_left .main_school_awards article h3 {
+    font-weight: normal;
+    font-size: .925em;
+}
+
+.main_school .main_school_content .main_school_content_right {
+    flex-basis: 30%;
+    padding: 30px;
+}
+
+.main_school .main_school_content .main_school_content_right img {
+   width: 100%;
+   border-radius: 50%;
+}
+
+.main_school .main_school_content .main_school_content_address {
+    text-align: center;
+    flex-basis: 100%;
+    padding: 20px 0;
+}
+
+.main_school .main_school_content .main_school_content_address h3 {
+    font-size: 1.3em;
 }
