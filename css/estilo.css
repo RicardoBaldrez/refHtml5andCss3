@@ -386,8 +386,8 @@
 }
 
 .main_school .main_school_content .main_school_content_right img {
-   width: 100%;
-   border-radius: 50%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .main_school .main_school_content .main_school_content_address {
@@ -466,14 +466,84 @@
     font-size: 1.4em;
 }
 
-.main_tutor .main_tutor_content .main_tutor_social_networks article {
-    background-color: #fff;
-    border-radius: 5px;
-    flex-basis: 22%;
-    padding: 10px;
-}
-
 .main_tutor .main_tutor_content .main_tutor_social_networks article a {
     color: #d36833;
     font-size: .875em;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-basis: 22%;
+}
+
+.main_tutor .main_tutor_content .main_tutor_social_networks article a:hover {
+    background-color: #2d3142;
+    color: #fff;
+}
+
+/* Sétima dobra - VIP */
+.main_vip {
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.main_vip .main_content_vip {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.main_vip .main_content_vip h1 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.main_vip .main_content_vip article h2 a {
+    font-size: 1.1em;
+}
+
+/* Oitava dobra - footer */
+.main_footer {
+    width: 100%;
+}
+
+.main_footer .main_content_footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_footer .main_content_footer > header {
+    flex-basis: 100%;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.main_footer .main_content_footer article {
+    flex-basis: 25%;
+}
+
+.main_footer .main_content_footer article:last-child {
+    flex-basis: 50%;
+}
+
+.main_footer .main_content_footer article header h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_footer .main_content_footer article ul li {
+    margin-bottom: 5px;
+}
+
+.main_footer .main_content_footer article ul li a {
+    color: #000;
+}
+
+.main_footer > p {
+    text-align: center;
+    margin: 10px 0 30px 0;
 }
