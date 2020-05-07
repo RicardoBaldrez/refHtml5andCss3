@@ -120,6 +120,35 @@
     transition: opacity .5s ease-in-out;
 }
 
+.main_articles .main_articles_content article .main_blog_meta {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    padding: 5px 0 10px 0;
+    font-size: .925em;
+    background-color: #e2e2e2;
+}
+
+.main_articles .main_articles_content article .main_blog_meta a {
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+}
+
+.main_articles .main_articles_content article .main_blog_meta a:hover {
+    text-decoration: underline;
+}
+
+.main_articles .main_articles_content article .main_blog_meta > p {
+    margin-bottom: 5px;
+}
+
+.main_articles .main_articles_content article .main_blog_meta img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
 .main_articles .main_articles_content article img {
     width: 100%;
 }
