@@ -328,13 +328,17 @@
             </div>
 
             <!-- Quarta dobra - Curso -->
-            <div class="main_course">
+            <div class="main_course" itemscope itemtype="https://schema.org/Product">
                 <section class="main_course_content">
                     <header  class="main_course_header">
-                        <img src="_img/logo.png" alt="HTML5 e CSS3 Essentials" title="HTML5 e CSS3 Essentials">
-                        <h1>HTML5 e CSS3 Essentials</h1>      
-                        <p>Aprenda a trabalhar com HTL5 e CSS3 para desenvolver seus projeto e entregar páginas que estejam dentro dos padrões da WEB seguindo as boas práticas</p>                  
+                        <img src="_img/logo.png" alt="HTML5 e CSS3 Essentials" title="HTML5 e CSS3 Essentials" itemprop="image">
+                        <h1 itemprop="name">HTML5 e CSS3 Essentials</h1>      
+                        <p itemprop="description">Aprenda a trabalhar com HTL5 e CSS3 para desenvolver seus projeto e entregar páginas que estejam dentro dos padrões da WEB seguindo as boas práticas</p>                  
                     </header>
+
+                    <div class="ds_none" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                        <span itemprop="priceCurrency" content="real">R$</span><span itemprop="price" content="1000.00"></span>
+                    </div>
 
                     <div class="main_course_about">
                         <div class="main_course_about_content">
@@ -370,9 +374,10 @@
 
                     <div class="main_course_rating">
                         <div class="main_course_rating_content">
-                            <article>
+                            <article itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
                                 <header>
-                                    <h2>Curso considerado 5 estrelas por nossos 100 alunos matriculados</h2>
+                                    <h2>Curso considerado <span itemprop="ratingValue">5 estrelas</span> por nossos 100 alunos matriculados</h2>
+                                    <meta itemprop="ratingCount" content="5">
                                     <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
@@ -386,10 +391,10 @@
                                     <h2>Veja o que estão falando sobre o curso</h2>
                                 </header>
     
-                                <article>
+                                <article itemprop="review" itescope itemtype="https://schema.org/Review">
                                     <header>
-                                        <h3>Gustavo Web</h3>
-                                        <p>03/01/2018</p>
+                                        <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Gustavo Web</span></h3>
+                                        <p itemprop="datePublished">03/01/2018</p>
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
@@ -397,13 +402,13 @@
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     </header>
     
-                                    <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
+                                    <p itemprop="description">O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
                                 </article>
-    
-                                <article>
+
+                                <article itemprop="review" itescope itemtype="https://schema.org/Review">
                                     <header>
-                                        <h3>Gustavo Web</h3>
-                                        <p>03/01/2018</p>
+                                        <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Gustavo Web</span></h3>
+                                        <p itemprop="datePublished">03/01/2018</p>
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
@@ -411,13 +416,13 @@
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     </header>
     
-                                    <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
+                                    <p itemprop="description">O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
                                 </article>
-    
-                                <article>
+
+                                <article itemprop="review" itescope itemtype="https://schema.org/Review">
                                     <header>
-                                        <h3>Gustavo Web</h3>
-                                        <p>03/01/2018</p>
+                                        <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Gustavo Web</span></h3>
+                                        <p itemprop="datePublished">03/01/2018</p>
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
@@ -425,13 +430,13 @@
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     </header>
     
-                                    <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
+                                    <p itemprop="description">O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
                                 </article>
-    
-                                <article>
+
+                                <article itemprop="review" itescope itemtype="https://schema.org/Review">
                                     <header>
-                                        <h3>Gustavo Web</h3>
-                                        <p>03/01/2018</p>
+                                        <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Gustavo Web</span></h3>
+                                        <p itemprop="datePublished">03/01/2018</p>
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
@@ -439,13 +444,13 @@
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     </header>
     
-                                    <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
+                                    <p itemprop="description">O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
                                 </article>
-    
-                                <article>
+
+                                <article itemprop="review" itescope itemtype="https://schema.org/Review">
                                     <header>
-                                        <h3>Gustavo Web</h3>
-                                        <p>03/01/2018</p>
+                                        <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Gustavo Web</span></h3>
+                                        <p itemprop="datePublished">03/01/2018</p>
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
@@ -453,13 +458,13 @@
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     </header>
     
-                                    <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
+                                    <p itemprop="description">O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
                                 </article>
-    
-                                <article>
+
+                                <article itemprop="review" itescope itemtype="https://schema.org/Review">
                                     <header>
-                                        <h3>Gustavo Web</h3>
-                                        <p>03/01/2018</p>
+                                        <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Gustavo Web</span></h3>
+                                        <p itemprop="datePublished">03/01/2018</p>
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
@@ -467,7 +472,7 @@
                                         <img src="_img/star.png" alt="Imagem estrela" title="Imagem estrela">
                                     </header>
     
-                                    <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
+                                    <p itemprop="description">O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo minhas páginas em HTML5 sem problemas</p>
                                 </article>
                             </section>
                         </div>
