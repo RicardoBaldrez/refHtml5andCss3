@@ -643,3 +643,35 @@
         padding: 5px 12px !important;
     }
 }
+
+@media (max-width: 64em) {
+    .main_cta .main_content_cta {
+        padding: 100px 30px;
+    }
+
+    .main_cta .main_cta_content h1 {
+        font-size: 2.5em;
+    }
+
+    .main_school {
+        margin-bottom: 0;
+    }
+
+    .main_school_content_left {
+        flex-basis: 100% !important;
+    }
+
+    .main_school_content_right {
+        height: 180px;
+        padding: 20px !important;
+    }
+
+    .main_school_content_right img {
+        width: 135px !important;
+    }
+
+    .main_school_content_address {
+        flex-basis: calc(100% - 30%) !important;
+        padding-top: 50px !important;
+    }
+}
