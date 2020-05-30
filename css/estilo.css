@@ -427,7 +427,7 @@
     .main_school_awards
     article {
     flex-basis: calc(50% - 20px);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .main_school
@@ -542,7 +542,7 @@
 /* Sétima dobra - VIP */
 .main_vip {
     width: 100%;
-    background-color: #e0e0e0;
+    background-color: #f3f1f1;
 }
 
 .main_vip .main_content_vip {
@@ -644,6 +644,7 @@
     }
 }
 
+/* 1024px */
 @media (max-width: 64em) {
     .main_cta .main_content_cta {
         padding: 100px 30px;
@@ -673,5 +674,125 @@
     .main_school_content_address {
         flex-basis: calc(100% - 30%) !important;
         padding-top: 50px !important;
+    }
+}
+
+/* 768px */
+@media (max-width: 48em) {
+    .main_header_content_menu {
+        display: none !important;
+    }
+
+    .main_cta .main_content_cta {
+        padding: 60px 20px;
+    }
+
+    .main_cta .main_content_cta h1 {
+        font-size: 1.8em !important;
+    }
+
+    .main_cta .main_content_cta p,
+    .main_cta .main_content_cta a {
+        font-size: 1.4em;
+    }
+
+    .main_articles .main_articles_content .main_articles_header {
+        margin: 15px 10px;
+    }
+
+    .main_articles .main_articles_content article {
+        flex-basis: calc(33.33% - 20px);
+    }
+
+    .main_articles .main_articles_content article h2 a span {
+        font-size: 0.9em;
+    }
+
+    .main_articles .main_articles_content article .main_blog_meta {
+        font-size: 0.85em;
+    }
+
+    .main_articles .main_articles_content article .main_blog_meta time {
+        font-size: 0.925em !important;
+    }
+
+    .main_optin .main_optin_content header {
+        padding: 0 50px !important;
+
+        font-weight: normal !important;
+    }
+
+    .main_optin .main_optin_content header h1 {
+        font-weight: 400;
+        font-size: 1.175em;
+    }
+
+    .main_optin .main_optin_content header p {
+        font-size: .875em;
+    }
+
+    .main_optin .main_optin_content form input,
+    .main_optin .main_optin_content form button {
+        border: none;
+    }
+
+    .main_optin .main_optin_content form input::-webkit-input-placeholder {
+        font-size: 1.3em;
+    }
+
+    .main_course .main_course_content .main_course_header {
+        padding: 0 20px;
+    }
+
+    .main_course .main_course_content .main_course_header h1 {
+        font-size: 2.7em;
+    }
+
+    .main_course_rating .main_course_rating_content > article header h2 {
+        font-size: 1.6em;
+    }
+
+    .main_course_rating .main_course_rating_content .main_course_rating_content_comment article {
+        flex-basis: calc(100% - 20px);
+    }
+
+    .main_school
+    .main_school_content
+    .main_school_content_left
+    .main_school_awards
+    article {
+        flex-basis: calc(100% - 20px);
+        color: rgb(112, 112, 112);
+    }
+
+    .main_vip .main_content_vip header h1 {
+        font-size: 1.3em;
+    }
+
+    .main_vip .main_content_vip header h2 {
+        font-size: .9em;
+    }
+
+    .main_footer .main_content_footer > header {
+        font-size: 1.5em;
+    }
+
+    .main_footer .main_content_footer article {
+        flex-basis: 50%;
+        font-size: .905em;
+    }
+
+    .main_footer .main_content_footer article:last-child {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+
+    .main_footer > p {
+        margin-bottom: 0;
+        padding: 15px;
+        font-size: .8em;
+        background-color: #eee;
+        color: rgb(172, 172, 172);
+        border-top: 2px solid rgb(199, 199, 199);
     }
 }
